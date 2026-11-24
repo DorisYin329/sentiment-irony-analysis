@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Model weights
+*.pth
+*.pt
+
+# Video
+*.mp4
+
+# Dataset - review before publishing
+ptt_boygirl_articles.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store

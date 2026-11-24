@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中文情緒分析平台</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+
+        <h1>中文情緒分析平台</h1>
+
+        <div class="feature-tags">
+            <span class="feature-tag">多任務 BERT</span>
+            <span class="feature-tag">情感分析</span>
+            <span class="feature-tag">情緒分析</span>
+            <span class="feature-tag">對話行為分析</span>
+        </div>
+
+    </div>
+
+    <!--模式切換-->
+
+    <div class="modeBox">
+        <button class="mode-btn active" id="manualBtn">手動輸入模式</button>
+        <button class="mode-btn" id="dcardBtn">PTT爬蟲模式</button>
+
+    </div>
+
+    <!--手動模式-->
+
+    <div class="inputBox" id="manualSection">
+
+        <h2>輸入文字分析</h2>
+        <textarea id="textInput" placeholder="請輸入一句話..."></textarea>
+
+        <button id="analyzeBtn">開始分析</button>
+        <div id="manualResult"></div>
+    </div>
+
+    <!--PTT模式-->
+
+    <div class="inputBox hidden" id="dcardSection">
+
+        <h2>PTT資料分析</h2>
+
+        <input id="urlInput" placeholder="請輸入PTT網址">
+
+        <button id="pttAnalyzeBtn">開始分析</button>
+        
+        <div id="pttResult"></div>
+    </div>
+
+    <div id="loading">AI分析中...</div>
+    <div id="resultContainer">
+
+    </div>
+
+</div>
+
+
+<script src="final.js"></script>
+
+</body>
+
+</html>

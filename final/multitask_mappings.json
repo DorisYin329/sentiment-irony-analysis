@@ -1,0 +1,90 @@
+{
+    "sentiment": {
+        "to_id": {
+            "neutral": 0,
+            "positive": 1,
+            "negative": 2
+        },
+        "to_name": {
+            "0": "neutral",
+            "1": "positive",
+            "2": "negative"
+        }
+    },
+    "emotion": {
+        "to_id": {
+            "neutral": 0,
+            "relaxed": 1,
+            "anger": 2,
+            "depress": 3,
+            "disgust": 4,
+            "negative-other": 5,
+            "worried": 6,
+            "fear": 7,
+            "happy": 8,
+            "astonished": 9,
+            "grateful": 10,
+            "positive-other": 11,
+            "sadness": 12
+        },
+        "to_name": {
+            "0": "neutral",
+            "1": "relaxed",
+            "2": "anger",
+            "3": "depress",
+            "4": "disgust",
+            "5": "negative-other",
+            "6": "worried",
+            "7": "fear",
+            "8": "happy",
+            "9": "astonished",
+            "10": "grateful",
+            "11": "positive-other",
+            "12": "sadness"
+        }
+    },
+    "da": {
+        "to_id": {
+            "greeting": 0,
+            "answer": 1,
+            "question": 2,
+            "statement-non-opinion": 3,
+            "interjection": 4,
+            "statement-opinion": 5,
+            "other": 6,
+            "irony": 7,
+            "apology": 8,
+            "command": 9,
+            "agreement": 10,
+            "disagreement": 11,
+            "thanking": 12,
+            "acknowledge": 13,
+            "appreciation": 14,
+            "comfort": 15,
+            "conventional-closing": 16,
+            "reject": 17,
+            "quotation": 18
+        },
+        "to_name": {
+            "0": "greeting",
+            "1": "answer",
+            "2": "question",
+            "3": "statement-non-opinion",
+            "4": "interjection",
+            "5": "statement-opinion",
+            "6": "other",
+            "7": "irony",
+            "8": "apology",
+            "9": "command",
+            "10": "agreement",
+            "11": "disagreement",
+            "12": "thanking",
+            "13": "acknowledge",
+            "14": "appreciation",
+            "15": "comfort",
+            "16": "conventional-closing",
+            "17": "reject",
+            "18": "quotation"
+        }
+    }
+}
